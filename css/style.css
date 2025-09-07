@@ -169,9 +169,7 @@ body {
 
                 .features-container {
                     background-color: #FFFFFF;
-                    max-width: 1158px;
-                    margin: 0 auto;
-                    padding: 0 15px;
+                    padding: 120px 0 120px;
                 }
 
                 .visually-hidden {
