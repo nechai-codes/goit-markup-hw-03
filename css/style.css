@@ -123,7 +123,7 @@ body {
         /* -------------------------hero-------------------- */
 
                 .hero {
-                    padding-top: 188px 0;
+                    padding: 188px 0;
                     background-color: #2e2f42;
                 }
 
@@ -167,7 +167,7 @@ body {
 
                 /* -------------------------features-------------------- */
 
-                .features {
+                .features-container {
                     background-color: #FFFFFF;
                     padding-top: 120px;
                     padding-bottom: 120px;
@@ -197,7 +197,6 @@ body {
                 }
                 
                 .features-subtitle {
-                    margin: 0 auto;
                     margin-bottom: 8px;
                     font-weight: 500;
                     font-size: 20px;
