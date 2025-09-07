@@ -260,6 +260,24 @@ body {
 
                 /* -------------------------PORTFOLIO-------------------- */
 
+                .portfolio{
+                    padding-top: 120px;
+                    padding-bottom: 120px;
+                }
+
+                .portfolio-list {
+                    display: flex;
+                    gap: 24px;
+                }
+
+                .portfolio-item {
+
+                }
+
+                .portfolio-info {
+                padding: 32px 0;
+                }
+                
                 .app-title {
                     font-weight: 500;
                     font-size: 20px;
