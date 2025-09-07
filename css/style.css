@@ -213,10 +213,12 @@ body {
                 /* -------------------------team-------------------- */
 
                 .team {
+                    padding: 120px 0 120px;
                     background-color: #f4f4fd;
                 }
                 
                 .section-title {
+                    margin-bottom: 72px;
                     font-weight: 700;
                     font-size: 36px;
                     line-height: 1.11;
@@ -227,10 +229,13 @@ body {
                 }
                 
                 .team-list {
-
+                    display: flex;
+                    gap: 24px;
                 }
                 
                 .team-item {
+                    display: block;
+                    margin: 0 auto 24px auto;
                     text-align: center; 
                     background-color: #ffffff;
                     }
