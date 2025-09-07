@@ -167,9 +167,11 @@ body {
 
                 /* -------------------------features-------------------- */
 
-                .container {
+                .features-container {
                     background-color: #FFFFFF;
-                    padding: 120px 0;
+                    max-width: 1158px;
+                    margin: 0 auto;
+                    padding: 0 15px;
                 }
 
                 .visually-hidden {
