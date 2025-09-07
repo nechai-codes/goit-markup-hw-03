@@ -4,15 +4,55 @@ body {
     background-color: #fff;
     }
 
+    /* reset */
     ul, ol {
     list-style: none;
+    margin: 0;
+    padding: 0;
+    }
+
+    h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
     }
 
     a {
     text-decoration: none;
     }
 
+    /* common */
+
+    .container {
+    max-width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+    }
+
     /* -------------------------HEADER-------------------- */
+
+    .header {
+        border-bottom: 1px solid #e7e9fc;
+    }
+
+    .header-container {
+        display: flex;
+        align-items: center;
+    }
+
+    .header-nav {
+        display: flex;
+        align-items: center;
+    }
+
+    .nav-list {
+        display: flex;
+        gap: 40px;
+        align-items: center;
+    }
+
+    .contacts-list {
+        display: flex;
+        align-items: center;
+    }   
 
     .logo {
     font-family: "Raleway", sans-serif;
@@ -24,6 +64,11 @@ body {
         color: #4d5ae5;
     }
     
+    .header-logo{
+        padding: 24px 0;
+        margin-right: 76px;
+    }
+
         .header-logo .logo-part {
             color: #2e2f42;
         }
@@ -33,6 +78,8 @@ body {
         }
 
         .nav-link {
+            display: block;
+            padding: 24px 0;
             font-weight: 500;
             font-size: 16px;
             line-height: 1.5;
@@ -41,20 +88,31 @@ body {
         }
 
         .contacts {
+            margin-left: auto;
             font-style: normal;
         }
 
         .contacts-list {
+            display: flex;
+            gap: 40px;
+            margin: 0;
+            list-style: none;
+        }
+
+        .contacts-link {
+            display: block;
+            padding: 24px 0;
             font-size: 16px;
             line-height: 1.5;
             letter-spacing: 0.02em;
             color: #434455;
+            text-decoration: none;
         }
 
         .nav-link:hover,
         .nav-link:focus,
-        .contacts-list:hover,
-        .contacts-list:focus {
+        .contacts-link:hover,
+        .contacts-link:focus {
             color: #404bbf;
         }
 
