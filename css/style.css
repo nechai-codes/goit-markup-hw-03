@@ -235,7 +235,7 @@ body {
                 
                 .team-item {
                     display: block;
-                    margin: 0 auto 24px auto;
+                    
                     border-radius: 0 0 4px 4px;
                     text-align: center;
                     background-color: #ffffff;
@@ -255,7 +255,7 @@ body {
 
                 .team-item img {
                     display: block;
-                    margin: 0 auto 24px auto;
+                    margin: 0 auto;
                 }
 
                 /* -------------------------PORTFOLIO-------------------- */
